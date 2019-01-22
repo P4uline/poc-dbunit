@@ -44,7 +44,7 @@ public class PocDataJpaTest {
         bookingRepository.save(booking);
         List<BookingEntity> all = bookingRepository.findAll();
         Assertions.assertThat(all).isNotEmpty();
-        Assertions.assertThat(bookingRepository.findOne(1L)).isEqualTo(booking);
+        Assertions.assertThat(bookingRepository.findOne(1L).getId()).isEqualTo(1L);
 
         bookingRepository.save(booking);
         bookingRepository.save(booking);
