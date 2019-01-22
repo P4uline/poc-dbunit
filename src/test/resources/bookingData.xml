@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+    <booking Id="1"
+            description="Stub Test Description"
+            start="2015-03-24 10:54:00"
+            end="2015-03-24 10:54:00"/>
+    <booking Id="2"
+             description="Description 2"
+             start="2015-03-24 10:54:00"
+             end="2015-03-24 10:54:00"/>
+    <booking Id="3"
+             description="Description 3"
+             start="2015-03-24 10:54:00"
+             end="2015-03-24 10:54:00"/>
+</dataset>
