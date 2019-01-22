@@ -14,7 +14,7 @@ import org.springframework.test.context.transaction.TransactionalTestExecutionLi
 
 import java.util.*;
 
-import static com.disney.booking.DbunitTest.BookingEntityBuilder.beBuilder;
+import static com.disney.booking.PocDbunitTest.BookingEntityBuilder.beBuilder;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class)
@@ -25,7 +25,7 @@ import static org.assertj.core.api.Assertions.assertThat;
         TransactionalTestExecutionListener.class,
         DbUnitTestExecutionListener.class})
 @DatabaseSetup("/bookingData.xml")
-public class DbunitTest {
+public class PocDbunitTest {
 
     public static final String PERSITED_DESCRIPTION = "Persited Description";
     @Autowired
